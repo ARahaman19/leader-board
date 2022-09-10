@@ -14,6 +14,10 @@ body {
     background-color: #562EFF;
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 
 
 
@@ -27,7 +31,7 @@ body {
 
 .company-profile img {
     width: 40px;
-    height: 40px;
+    height: 35px;
     color: #E5E5E5;
     margin-right: 10px;
 
@@ -35,7 +39,7 @@ body {
 
 .company-profile a {
     color: #E5E5E5;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -47,13 +51,16 @@ body {
 .menubar a {
     text-decoration: none;
     color: #D1D1D1;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* header style end */
 
 
 /* Top-Content style */
+main {
+    margin-top: 5%;
+}
 
 .container {
 
@@ -224,6 +231,10 @@ hr {
 
 /* Mobile device */
 @media only screen and (max-width:668px) {
+
+    main {
+        margin-top: 5%;
+    }
 
     .container {
         width: 100%;
