@@ -9,13 +9,59 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* header style */
+.main-header {
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.company-profile {
+    display: flex;
+    align-items: center;
+}
+
+
+.company-profile img {
+    width: 40px;
+    height: 40px;
+    color: #E5E5E5;
+    margin-right: 10px;
+
+}
+
+.company-profile a {
+    color: #E5E5E5;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.menubar {
+    display: flex;
+    align-items: center;
+}
+
+.menubar a {
+    text-decoration: none;
+    color: #D1D1D1;
+    padding: 20px;
+}
+
+/* header style end */
+
+
+/* Top-Content style */
+
 .container {
 
     width: 870px;
     padding: 30px;
     background-color: white;
     border-radius: 5px;
-    margin-top: 21px;
+    margin-bottom: 21px;
 }
 
 .container:hover {
